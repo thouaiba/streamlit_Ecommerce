@@ -2,12 +2,11 @@ import streamlit as st
 import pandas as pd 
 import numpy as np
 import datetime as dt
-import seaborn as sns
-import matplotlib.pyplot as plt 
-import seaborn as sns
-from sklearn.preprocessing import StandardScaler
-from sklearn import preprocessing
-from sklearn.cluster import KMeans
+#import matplotlib.pyplot as plt 
+#import seaborn as sns
+#from sklearn.preprocessing import StandardScaler
+#from sklearn import preprocessing
+#from sklearn.cluster import KMeans
 
 st.markdown('Projet fil rouge DataScientest Promotion Data Analyst  Décembre 2021 – Juillet 2022')
 #st.title ('ANALYSE DE SITE ECOMMERCE') 
