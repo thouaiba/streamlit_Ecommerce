@@ -27,7 +27,7 @@ st.text('Mentor: Frédéric FRANCINE')
 pages=['Le Pakistan en chiffres','Jeux de données & Data Cleaning','Data Viz','Pareto des Ventes', 'RFM Segmentation','Etude Kmeans', 'Etude détaillée par segment','Conclusion']
 page=st.sidebar.radio("aller vers", pages)
 
-df = pd.read_csv('C:/Users/Malki.T/Documents/workspace/00.run/Pakistan.csv', sep = ',', index_col='item_id')
+df = pd.read_csv('Pakistan.csv', sep = ',', index_col='item_id')
 
 #################################################################################################
 #################################################################################################
