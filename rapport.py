@@ -914,27 +914,5 @@ risque, il est préférable de appliquer la même stratégie.
     '''
     
     st.markdown("<h1 style='text-align: center; color: blue;'>MERCI</h1>", unsafe_allow_html=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
