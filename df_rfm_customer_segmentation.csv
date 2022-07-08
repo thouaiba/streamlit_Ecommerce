@@ -1,0 +1,21 @@
+﻿;Customer_ID;RFM_Score;Customer_segment
+0;1.0;1.85;Low Value Customers
+1;2.0;1.94;Low Value Customers
+2;3.0;2.09;Low Value Customers
+3;4.0;4.99;Top Customers
+4;5.0;1.85;Low Value Customers
+5;6.0;1.85;Low Value Customers
+6;7.0;2.06;Low Value Customers
+7;8.0;1.85;Low Value Customers
+8;9.0;1.85;Low Value Customers
+9;10.0;1.85;Low Value Customers
+10;11.0;4.34;High value Customer
+11;12.0;1.94;Low Value Customers
+12;13.0;4.39;High value Customer
+13;14.0;2.09;Low Value Customers
+14;15.0;4.69;Top Customers
+15;16.0;4.60;Top Customers
+16;17.0;1.85;Low Value Customers
+17;18.0;1.85;Low Value Customers
+18;19.0;1.94;Low Value Customers
+19;20.0;5.00;Top Customers
