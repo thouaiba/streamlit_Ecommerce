@@ -274,7 +274,7 @@ if page==pages[2]:
     st.subheader("télécharger le Data Viz Power PI Rapport")
     
     
-    with open("C:/Users/Malki.T/Documents/workspace/99.Archive/DataViz_PBI.pdf", "rb") as src:
+    with open("DataViz_PBI.pdf", "rb") as src:
         PDFbyte = src.read()
 
     st.download_button(label="Download Data Viz Power BI Rapport", 
@@ -330,7 +330,7 @@ if page==pages[3]:
         
     
     
-    with open("C:/Users/Malki.T/Documents/workspace/99.Archive/Pareto_PBI.pdf", "rb") as src:
+    with open("Pareto_PBI.pdf", "rb") as src:
         PDFbyte = src.read()
 
     st.download_button(label="Download Pareto Power BI Rapport", 
@@ -340,7 +340,7 @@ if page==pages[3]:
     
     st.subheader('Top Produits')
     
-    with open("C:/Users/Malki.T/Documents/workspace/99.Archive/Top produits_PBI.pdf", "rb") as src:
+    with open("Top produits_PBI.pdf", "rb") as src:
         PDFbyte = src.read()
 
     st.download_button(label="Download Top Produits Power BI Rapport", 
@@ -545,7 +545,7 @@ if page==pages[5]:
     st.subheader("télécharger le Power PI Rapport")
     
     
-    with open("C:/Users/Malki.T/Documents/workspace/99.Archive/RFM_PBI.pdf", "rb") as src:
+    with open("RFM_PBI.pdf", "rb") as src:
         PDFbyte = src.read()
 
     st.download_button(label="Download RFM Power BI Rapport",  
