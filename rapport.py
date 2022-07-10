@@ -271,7 +271,7 @@ if page==pages[2]:
     st.image(image6, width=600)
     
        
-    st.subheader("télécharger le Data Viz Power PI Rapport")
+    st.subheader("Télécharger le Data Viz Power BI Rapport")
     
     
     with open("DataViz_PBI.pdf", "rb") as src:
