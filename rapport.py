@@ -586,9 +586,9 @@ if page==pages[5]:
 if page==pages[6]:
     st.header('Conclusion')
 
-    tex1="le type de clients de ce segment sont des commerçants, donc Les objets publicitaires pour les remercier via des cadeaux d’affaires.…"
-    tex2="Se sont des particuliers, on peut Récompenser les meilleurs clients, influenceurs, journalistes… "
-    tex3="Puisque c'est le segment qui utilise le plus le payment marketing, on peut utiliser les cadeaux publicitaires pour marquer l’esprit (lancement de produits, prise de contact…)"
+    tex1="le type de clients de ce segment sont des commerçants, donc on peut utiliser les objets publicitaires pour les remercier via des cadeaux d’affaires.…"
+    tex3="Se sont des particuliers, on peut récompenser les meilleurs clients, influenceurs, journalistes… "
+    tex2="Puisque c'est le segment qui utilise le plus le payment marketing, on peut utiliser les cadeaux publicitaires pour marquer l’esprit (lancement de produits, prise de contact…)"
     tex4="C'est le segment qui a le plus besoin de l'animation, donc on peut l'animer sur les réseaux sociaux..."
     
     
