@@ -536,7 +536,7 @@ from sklearn.cluster import KMeans
     
     
 if page==pages[5]:
-    st.header('Etude détaillée des articles achetés par client')
+    st.header('Etude détaillée des articles achetés par Segment')
     
     from PIL import Image
     image5 = Image.open('loupejpg.jpg')
