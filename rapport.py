@@ -597,13 +597,13 @@ if page==pages[6]:
         
     col1.subheader("Segment VIP")
     col1.write(tex1)
-    col1.subheader("Segment SILVER")
-    col1.write(tex2)
+    col1.subheader("Segment GOLD")
+    col1.write(tex3)
     
 
 
-    col2.subheader("Segment GOLD")
-    col2.write(tex3)
+    col2.subheader("Segment SILVER")
+    col2.write(tex2)
     col2.subheader("Segment BRONZE")
     col2.write(tex4)
     
