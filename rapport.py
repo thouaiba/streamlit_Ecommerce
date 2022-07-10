@@ -322,7 +322,7 @@ if page==pages[2]:
 if page==pages[3]:
     st.header('Pareto des Ventes et Top 1000 Produits')
              
-    st.subheader("télécharger le Power PI Rapport")
+    st.subheader("télécharger le Power BI Rapport")
     
     from PIL import Image
     image6 = Image.open('pareto.jpg')
@@ -542,7 +542,7 @@ if page==pages[5]:
     image5 = Image.open('loupejpg.jpg')
     st.image(image5) 
     
-    st.subheader("télécharger le Power PI Rapport")
+    st.subheader("télécharger le Power BI Rapport")
     
     
     with open("RFM_PBI.pdf", "rb") as src:
@@ -612,6 +612,16 @@ if page==pages[6]:
 les qutres segments sera l'augentation de la fréquentation (visiter plus pour 
 acheter plus)..
     ''' 
+    
+    st.subheader("Power BI")   
+    
+    with open("Power_BI.pdf", "rb") as src:
+        PDFbyte = src.read()
+
+    st.download_button(label="Power BI",  
+        data=PDFbyte,
+        file_name="Power_BI.pdf",
+        mime='application/octet-stream')
     
     st.markdown("<h1 style='text-align: center; color: blue;'>MERCI !!!</h1>", unsafe_allow_html=True)
 
