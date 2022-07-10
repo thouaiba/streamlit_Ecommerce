@@ -20,7 +20,7 @@ st.text('Frédéric FRANCINE')
 pages=['Le Pakistan en chiffres','Jeux de données & Data Cleaning','Data Viz','Pareto des Ventes', 'RFM Segmentation et Etude Kmeans', 'Etude détaillée par segment','Conclusion']
 page=st.sidebar.radio("aller vers", pages)
 
-df = pd.read_csv('Pakistan.csv', sep = ',', index_col='item_id')
+df = pd.read_csv('Pakistan.zip', sep = ',', index_col='item_id')
 
 
 
@@ -613,7 +613,7 @@ les qutres segments sera l'augentation de la fréquentation (visiter plus pour
 acheter plus)..
     ''' 
     
-    st.markdown("<h1 style='text-align: center; color: blue;'>MERCI</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: blue;'>MERCI !!!</h1>", unsafe_allow_html=True)
 
 
 
