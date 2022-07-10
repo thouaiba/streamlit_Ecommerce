@@ -20,7 +20,7 @@ st.text('Frédéric FRANCINE')
 pages=['Le Pakistan en chiffres','Jeux de données & Data Cleaning','Data Viz','Pareto des Ventes', 'RFM Segmentation et Etude Kmeans', 'Etude détaillée par segment','Conclusion']
 page=st.sidebar.radio("aller vers", pages)
 
-df = pd.read_csv('./Pakistan.csv', sep = ',', index_col='item_id')
+df = pd.read_csv('Pakistan.csv', sep = ',', index_col='item_id')
 
 
 
@@ -392,12 +392,12 @@ if page==pages[4]:
     
     st.markdown("<h6 style='text-align: left; color: blue;'>Extraction des colonnes cocernées</h1>", unsafe_allow_html=True) 
     
-    df_rfm= pd.read_csv("./df_rfm_brute.csv", sep=";", index_col=0)
+    df_rfm= pd.read_csv("df_rfm_brute.csv", sep=";", index_col=0)
     st.dataframe(df_rfm.head(2))
     
     st.markdown("<h6 style='text-align: left; color: blue;'>Calcul de la récence, fréquence et montant</h1>", unsafe_allow_html=True) 
     
-    RFM_Table= pd.read_csv("./df_rfm1.csv", sep=";", index_col=0)
+    RFM_Table= pd.read_csv("df_rfm1.csv", sep=";", index_col=0)
     st.dataframe(RFM_Table.head(2))
     
     st.markdown("<h6 style='text-align: left; color: blue;'>Score des récences, fréquence et montant</h1>", unsafe_allow_html=True) 
@@ -406,7 +406,7 @@ if page==pages[4]:
     image3 = Image.open('rfm.jpg')
     st.image(image3,width=800) 
     
-    RFM_table= pd.read_csv("./df_rfm2.csv", sep=";", index_col=0)
+    RFM_table= pd.read_csv("df_rfm2.csv", sep=";", index_col=0)
     st.dataframe(RFM_table.head(2))
     
     st.markdown("<h6 style='text-align: left; color: blue;'>Calcul du score RFM pour chaque client</h1>", unsafe_allow_html=True)
